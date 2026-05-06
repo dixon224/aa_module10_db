@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./index.css";
 
-const API_URL = "http://localhost:5000/api/todos";
+const API_URL = "https://todo-backend-blush-nine.vercel.app/api/todos";
 
 function App() {
   const [todos, setTodos] = useState([]);
